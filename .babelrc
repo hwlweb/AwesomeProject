@@ -1,0 +1,14 @@
+{
+  "retainLines": true,
+  "compact": true,
+  "comments": false,
+  "plugins": [],
+  "presets": ["react", "react-native"],
+  "env": {  
+      "plugins": [
+        "transform-react-constant-elements",
+        "transform-react-inline-elements"
+      ]   
+  },
+  "sourceMaps": false
+}
